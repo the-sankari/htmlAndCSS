@@ -1,0 +1,43 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(#eae2e8, #cb7ad2fc) no-repeat;
+    height: 100vw;
+}
+
+table{
+    width: 80%;
+    background-color: bisque;
+    margin: 20px;
+}
+
+thead{
+    background-color: #f6dcef;
+    height: 40px;
+}
+
+thead tr {
+    color: #421414;
+    /* font-size: 22px; */
+}
+
+th{
+    border-bottom: 2px solid #d17a11;
+}
+
+tr td{
+    /* border: 1px solid; */
+    background-color: #a3e1d7b7;
+    /* max-width: 100px; */
+    padding: 10px 12px;
+    margin: 5px 5px;
+}
+
+.fieldset{
+    padding: 5px 5px 10px 15px;
+}

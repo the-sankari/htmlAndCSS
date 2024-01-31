@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Form</h1>
+    <table>
+      <!-- <caption>From structure</caption> -->
+      <thead>
+        <tr>
+          <th>Description</th>
+          <th>Input example</th>
+          <th>Notes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>type = "buttom"</td>
+          <td>
+            <fieldset class="fieldset checkbox-field">
+              <legend>Check if you are done</legend>
+              <input type="checkbox" name="chec1" id="" />Checkbox 1 <br />
+              <input type="checkbox" name="chec2" id="" />Checkbox 2 <br />
+              <input type="checkbox" name="chec3" id="" />Checkbox 3 <br />
+            </fieldset>
+          </td>
+          <td>button text</td>
+        </tr>
+        <tr>
+          <td>type="radio"</td>
+          <td>
+            <fieldset class="fieldset radio-field">
+              <legend>Which radio do you like?</legend>
+              <input type="radio" name="radio" id="today" /> Radio today <br />
+              <input type="radio" name="radio" id="furti" /> Radio furti
+            </fieldset>
+          </td>
+          <td>button text</td>
+        </tr>
+        <tr>
+
+          <td>type= "range"</td>
+          <td>
+            <fieldset class="fieldset"> 
+                <legend>Calculate the Speed</legend>
+                <label for="distance" >Distance</label>
+                <input type="range" name="distance" class="speed-range distance" id="distance" min="0" max="100" step="2">
+                <p class="rangValue">Value: <output id="distanceValue"></output>  </p>
+                <label for="time" >Time</label>
+                <input type="range" name="time" class="speed-range time" id="time" min="0" max="100" step="2"> 
+                <p class="rangValue">Value: <output id="timeValue"></output>  </p>
+               
+            </fieldset>
+          </td>
+          <td>button text</td>
+        </tr>
+        <tr>
+          <td>type</td>
+          <td>button</td>
+          <td>button text</td>
+        </tr>
+      </tbody>
+    </table>
+    <script src="script.js"></script>
+  </body>
+</html>
