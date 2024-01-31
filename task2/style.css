@@ -1,0 +1,35 @@
+body{
+    background: linear-gradient( rgb(86, 8, 95), black);
+    color: #fff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a{
+    color: red ;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.top_arr{
+    height: 50px;
+    width: 50px;
+    background-color: aqua;
+    position: absolute;
+    right: 20px;
+    /* left: 0; */
+    bottom: 0px;
+    border-radius: 25px;
+    text-align: center;
+}
+.top_arr p{
+
+}
+
+img{
+    /* width: 300px; */
+    max-width: 30%;
+    max-height: 300px;
+    /* height: 300px; */
+}
