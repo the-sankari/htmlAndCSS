@@ -42,18 +42,47 @@
           <td>button text</td>
         </tr>
         <tr>
-
           <td>type= "range"</td>
           <td>
-            <fieldset class="fieldset"> 
-                <legend>Calculate the Speed</legend>
-                <label for="distance" >Distance</label>
-                <input type="range" name="distance" class="speed-range distance" id="distance" min="0" max="100" step="2">
-                <p class="rangValue">Value: <output id="distanceValue"></output>  </p>
-                <label for="time" >Time</label>
-                <input type="range" name="time" class="speed-range time" id="time" min="0" max="100" step="2"> 
-                <p class="rangValue">Value: <output id="timeValue"></output>  </p>
-               
+            <fieldset class="fieldset">
+              <legend>Calculate the Speed</legend>
+              <label for="distance">Distance</label>
+              <input
+                type="range"
+                name="distance"
+                class="speed-range distance"
+                id="distance"
+                min="0"
+                max="100"
+                step="2"
+                list="markers"
+              />
+
+              <p class="rangValue">
+                Value: <output id="distanceValue"></output>
+              </p>
+              <label for="time">Time</label>
+              <input
+                type="range"
+                name="time"
+                class="speed-range time"
+                id="time"
+                min="0"
+                max="100"
+                step="2"
+                list="markers"
+              />
+              <datalist id="markers">
+                <option value="0"></option>
+                <option value="20"></option>
+                <option value="40"></option>
+                <option value="60"></option>
+                <option value="80"></option>
+                <option value="100"></option>
+              </datalist>
+              <p class="rangValue2">Value: <output id="timeValue"></output></p>
+              <button class="calculate">Calculate</button>
+              <p class="speed"></p>
             </fieldset>
           </td>
           <td>button text</td>
