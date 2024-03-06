@@ -20,10 +20,9 @@ body {
   height: 80%;
 }
 
-.form-header{
-    margin: 20px 0 ;
+.form-header {
+  margin: 20px 0;
 }
-
 
 /* .form-header h1{
     font-size: 40px;
@@ -36,7 +35,6 @@ body {
   text-align: center;
   padding: 20px;
   font-family: "Poppins", sans-serif;
-
 }
 
 .form-group {
@@ -49,7 +47,6 @@ body {
   font-size: 14px;
   margin-bottom: 5px;
   cursor: pointer;
-  
 }
 
 .form-group input {
@@ -61,55 +58,56 @@ body {
   padding: 0 8px;
   border-radius: 5px;
   margin-bottom: 20px;
-  border: .5px solid gray;
+  border: 0.5px solid gray;
 }
 
+.signup-button {
+  width: 80%;
+  height: 40px;
+  font-size: 16px;
+  color: #fff;
+  padding: 10px;
+  background-color: #e46436;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  transition: font-size 0.3s ease-in-out;
+}
 
-.signup-button{
-    width: 80%;
-    height: 40px;
-    font-size: 16px;
-    color: #fff;
-    padding: 10px;
+.signup-button:hover {
+  background-color: #e46436e4;
+  font-size: 20px;
+}
+
+.form-agree {
+  margin: 30px 0;
+}
+
+.conditions {
+  font-size: 10px;
+}
+
+a {
+  color: #e46436;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.form-footer {
+  margin: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  body {
     background-color: #e46436;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
-    text-transform: uppercase;
-    font-family: 'Roboto',sans-serif;
-    transition: font-size .3s ease-in-out;
-}
-
-.signup-button:hover{
-    background-color: #e46436e4;
-    font-size: 20px;
-}
-
-
-
-.form-agree{
-    margin: 30px 0;
-}
-
-.conditions{
-    font-size: 10px;
-}
-
-
-a{
-    color: #e46436;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-
-a:hover{
-    text-decoration: underline;
-}
-
-.form-footer{
-    margin: 20px;
-    color: #fff;
-    text-align: center;
+  }
 }
 

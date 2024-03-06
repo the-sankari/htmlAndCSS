@@ -1,0 +1,43 @@
+:root {
+  --neutral-color: cornsilk;
+  --font: Verdana, Geneva, Tahoma, sans-serif;
+  --primary-color: teal;
+  --secondary-color: steelblue;
+  --dark-color: #333;
+  --light-color: #fff;
+  --basic-shadow: 5px 5px 5px var(--dark-color);
+  /* --box-shadow:0px 0px 5px var(--light-color); */
+}
+
+body {
+  font-family: var(--font);
+  background: var(--neutral-color);
+  color: var(--light-color);
+}
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.item {
+  background: var(--primary-color);
+  min-height: 200px;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  text-shadow: 1px 1px 1px var(--neutral-color), var(--basic-shadow);
+  border-radius: 5px;
+  transition: all .3s ease-in-out;
+}
+
+
+.item:hover{
+    background: var(--secondary-color);
+    box-shadow: 0 0 300px var(--dark-color) inset ;
+}

@@ -1,0 +1,25 @@
+.container{
+  height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+
+.box-container{
+    background-color: antiquewhite;
+    flex: 1;
+}
+
+
+.round-cotainer{
+    background-color: red;
+    flex: 4;
+}
+
+/* 
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    margin: 5px;
+} */
